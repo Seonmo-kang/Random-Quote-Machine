@@ -18,6 +18,11 @@ function App() {
   return (
     <div className="App">
       { isLoading? <Loading/> : <QuoteBox quotes={quotes} colors={colors}/> }
+      <div>
+        <p className="copyright">
+          by Seonmo Kang
+        </p>
+      </div>
     </div>
   );
 }
