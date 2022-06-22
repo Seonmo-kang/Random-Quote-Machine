@@ -1,0 +1,14 @@
+:root{
+  --designated-color : #fff;
+}
+
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  background-color: var(--designated-color);
+  transition: background-color 1s ease-in-out;
+}
