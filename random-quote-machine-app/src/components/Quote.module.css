@@ -7,10 +7,10 @@
     border: 3px solid black;
     border-radius: 5px;
 }
-.quote{
+.quote, .quoteText, .quoteAuthor{
     color:var(--designated-color);
 }
-.newQuote, .quoteTwitter{
+.newQuote, .quoteGithub{
     transition: background-color 1s ease-in-out;
 }
 .quoteText {
@@ -30,9 +30,7 @@
 .quoteAuthor::before{
     content: "- ";
 }
-.quoteText, .quoteAuthor{
-    color : var(--designated-color);
-}
+
 .buttons{
     width:450px;
     display: block;
@@ -47,11 +45,11 @@
     padding:10px;
     float: right;
 }
-.newQuote:hover{
+.newQuote:hover, .quoteGithub:hover{
     opacity: 0.8;
     cursor: pointer;
 }
-.quoteTwitter{
+.quoteGithub{
     padding:0;
     float: left;
     background-color: var(--designated-color);
@@ -62,4 +60,5 @@
     padding-top: 8px;
     border-radius: 3px;
 }
+
 

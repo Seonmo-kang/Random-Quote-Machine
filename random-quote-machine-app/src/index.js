@@ -5,7 +5,6 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import QuoteBox from './components/QuoteBox';
 const container = document.getElementById('root');
 const root = createRoot(container);
 

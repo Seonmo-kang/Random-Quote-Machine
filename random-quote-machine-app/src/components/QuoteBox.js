@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from './Quote.module.css';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 const QuoteBox = ({quotes, colors}) => {
@@ -48,7 +48,7 @@ const QuoteBox = ({quotes, colors}) => {
                 <p className={styles.quoteAuthor} id="author">{randomQuote.author}</p>
             </div>
             <div className={styles.buttons}>
-                <a className={styles.quoteTwitter} id="tweet-quote" href="twitter.com/intent/tweet" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a className={styles.quoteGithub} id="github-quote" href="https://github.com/Seonmo-kang/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
                 <button className={styles.newQuote} id="new-quote" onClick={ ()=> clickHandler()}>New quote</button>
             </div>
             
