@@ -9,7 +9,6 @@
 }
 .quote{
     color:var(--designated-color);
-    
 }
 .newQuote, .quoteTwitter{
     transition: background-color 1s ease-in-out;
